@@ -1,0 +1,25 @@
+MN 1 · 뿌리에 대한 법문 경 — 개인 경전 서재
+
+읽기
+파일 묶음을 내려받아 압축을 푼 뒤 index.html을 브라우저로 열면 됩니다.
+mn1-ko.txt에는 한국어 본문이 있습니다.
+
+GitHub에 보관
+압축을 푼 파일들을 저장소에 올리세요. ZIP 자체만 올리면 웹사이트로 표시되지 않습니다.
+비공개 저장소에서는 로그인 후 파일을 확인하거나 내려받을 수 있습니다.
+
+GitHub Pages로 게시
+일반 무료 개인 계정은 공개 저장소에서 Pages를 사용할 수 있습니다.
+저장소 Settings > Pages > Deploy from a branch에서 main / (root)를 선택합니다.
+Pages 게시 시 웹페이지는 공개됩니다. GitHub 저장소 공개 여부와 웹페이지 공개 여부를 함께 확인하세요.
+
+메모
+메모는 각 기기의 브라우저에 저장되며 GitHub로 자동 동기화되지 않습니다.
+메모 내보내기로 기록을 별도 보관하세요.
+
+번역
+Bhikkhu Sujato의 CC0 영어 번역을 바탕으로 한 AI 한국어 학습용 재번역입니다.
+https://suttacentral.net/mn1/en/sujato
+반복 생략(…)과 절 번호는 영어 저본을 따릅니다. 전문가 감수 전 학습용입니다.
+영어 저본, 한국어 재번역과 자체 웹페이지: CC0 1.0.
+https://github.com/suttacentral/bilara-data/blob/published/LICENSE.md
