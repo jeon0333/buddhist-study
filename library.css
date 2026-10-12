@@ -23,6 +23,15 @@
 @media(min-width:701px){aside{max-height:calc(100dvh - 25px);overflow-y:auto;scrollbar-width:thin;padding-bottom:20px}}
 .header-actions{display:flex;align-items:center;gap:8px}
 .header-actions button{white-space:nowrap;padding:7px 8px}
+.header-brand{display:flex;align-items:center;gap:12px}
+.icon-button{display:inline-flex;align-items:center;justify-content:center;flex:none;width:40px;height:40px;padding:0;border-color:transparent;border-radius:8px;color:var(--muted)}
+.icon-button[hidden]{display:none}
+.icon-button svg{display:block}
+.icon-button:hover{color:var(--text)}
+#theme .icon-sun,.dark #theme .icon-moon{display:none}
+.dark #theme .icon-sun{display:block}
+.shelf-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;position:sticky;top:0;background:var(--bg);z-index:1}
+.shelf-heading .shelf-label{display:block}
 .layout.sidebar-collapsed{grid-template-columns:minmax(0,1fr)}
 .sidebar-collapsed main{width:100%;margin-inline:auto}
 #reader-sidebar[hidden]{display:none}
@@ -37,5 +46,5 @@
   .layout main{width:100%;margin-inline:auto}
   .layout.sidebar-collapsed{padding-inline:32px}
 }
-@media screen and (max-width:700px){html{scroll-padding-top:150px}.toolbar{top:67px}}
+@media screen and (max-width:700px){html{scroll-padding-top:150px}.toolbar{top:67px}.shelf-heading{position:static;margin-bottom:12px}}
 @media(max-width:400px){.brand{font-size:15px}.header-actions{gap:4px}.header-actions button{padding:7px 6px}}
