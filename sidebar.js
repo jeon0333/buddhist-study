@@ -16,7 +16,7 @@
   try{setCollapsed(localStorage.getItem(key)==='true')}catch{setCollapsed(false)}
   button.onclick=()=>{
     setCollapsed(!sidebar.hidden);
-    (sidebar.hidden?opener:button).focus();
+    (sidebar.hidden?opener:button).focus({preventScroll:true});
     try{localStorage.setItem(key,String(sidebar.hidden))}catch{}
   };
   opener.onclick=button.onclick;
